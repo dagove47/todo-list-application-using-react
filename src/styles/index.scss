@@ -1,13 +1,35 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body{
+    margin: 3%;
+    background: url("https://images.unsplash.com/photo-1586075010923-2dd4570fb338?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #bd26be, 0 0 20px #bd26be, 0 0 25px #bd26be, 0 0 30px #bd26be, 0 0 35px #bd26be;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.list-group{
+    background-color: whitesmoke;
+}
+.task{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li:hover{
+    background-color: rgb(238, 204, 204);
+color: white;
+}
 
-*/
+ul:after{
+    content:"";
+    width: 100%;
+    height: 5px;
+    border-bottom: solid 1px rgb(192, 192, 192);
+}
